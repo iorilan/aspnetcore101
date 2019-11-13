@@ -1,0 +1,14 @@
+D:\Craft\aspnetcore\AspCoreSamples\bin\Release\netcoreapp2.1\01-kestralhost.deps.json
+D:\Craft\aspnetcore\AspCoreSamples\bin\Release\netcoreapp2.1\01-kestralhost.runtimeconfig.json
+D:\Craft\aspnetcore\AspCoreSamples\bin\Release\netcoreapp2.1\01-kestralhost.runtimeconfig.dev.json
+D:\Craft\aspnetcore\AspCoreSamples\bin\Release\netcoreapp2.1\01-kestralhost.dll
+D:\Craft\aspnetcore\AspCoreSamples\bin\Release\netcoreapp2.1\01-kestralhost.pdb
+D:\Craft\aspnetcore\AspCoreSamples\obj\Release\netcoreapp2.1\01-kestralhost.csprojAssemblyReference.cache
+D:\Craft\aspnetcore\AspCoreSamples\obj\Release\netcoreapp2.1\01-kestralhost.csproj.CoreCompileInputs.cache
+D:\Craft\aspnetcore\AspCoreSamples\obj\Release\netcoreapp2.1\01-kestralhost.RazorAssemblyInfo.cache
+D:\Craft\aspnetcore\AspCoreSamples\obj\Release\netcoreapp2.1\01-kestralhost.RazorAssemblyInfo.cs
+D:\Craft\aspnetcore\AspCoreSamples\obj\Release\netcoreapp2.1\01-kestralhost.AssemblyInfoInputs.cache
+D:\Craft\aspnetcore\AspCoreSamples\obj\Release\netcoreapp2.1\01-kestralhost.AssemblyInfo.cs
+D:\Craft\aspnetcore\AspCoreSamples\obj\Release\netcoreapp2.1\01-kestralhost.RazorTargetAssemblyInfo.cache
+D:\Craft\aspnetcore\AspCoreSamples\obj\Release\netcoreapp2.1\01-kestralhost.dll
+D:\Craft\aspnetcore\AspCoreSamples\obj\Release\netcoreapp2.1\01-kestralhost.pdb

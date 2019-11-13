@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod # 定义Kubernetes资源的类型为Pod
+metadata:
+  name: aspnetapp # 定义资源的名称
+  labels: # 为Pod贴上标签，后面会介绍其用处
+    app: aspnetapp
+spec: # 定义资源的状态，对于Pod来说，最重要属性就是containers
+  containers: # containers一个数组类型，如果你希望部署多个容器，可以添加多项
+    - name: i-a # 
+      image: aspnetapp # this is the docker image name
+      imagePullPolicy: Never # default is Always
+      ports:
+        - containerPort: 8009 #
+      livenessProbe: # 
+        httpGet:
+          path: /Home/CheckHealth # 存活探针请求路径
+          port: 80 #存活探针请求端口

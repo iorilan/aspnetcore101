@@ -1,0 +1,47 @@
+﻿aspnet core 3.0 + ef core+ swagger
+
+need visual studio 2019 installed
+
+1. 
+dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package NSwag.AspNetCore
+
+2. create 'Data' Folder
+Add model and dbcontext under Data folder
+
+3. appsettings.json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "DataSource=app.db"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+4. startup.cs -> configure services 
+services.AddDbContext<ContactsDbContext>(options =>
+       options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddOpenApiDocument(document =>
+                document.PostProcess = d => d.Info.Title = "Contacts API");
+
+
+5.startup.cs configure
+app.UseOpenApi();
+    app.UseSwaggerUi3();
+
+
+add migration
+EntityFrameworkCore\Add-Migration
+EntityFrameworkCore\update-database
+
+6. API Controller with actions, using Entity Framework
+
+7. http://localhost:55156/swagger/
+

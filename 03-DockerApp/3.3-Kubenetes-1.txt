@@ -1,0 +1,30 @@
+﻿(Kubernetes Option only available on linux container)
+
+Linux Conatiner ->
+1.switch to linux container 
+2.enable kubernetes->apply
+3.kubectl cluster-info
+make sure see the information kubernetes cluster and dns
+4.cd .net app folder -> copy linux docker file to this folder
+5.docker build -t kubeaspnetapp:v1 .
+6. add in kubernetes dashboard
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml
+kubectl create -f https://raw.githubusercontent.com/kubernetes/heapster/master/deploy/kube-config/influxdb/influxdb.yaml
+kubectl create -f https://raw.githubusercontent.com/kubernetes/heapster/master/deploy/kube-config/influxdb/heapster.yaml
+kubectl create -f https://raw.githubusercontent.com/kubernetes/heapster/master/deploy/kube-config/influxdb/grafana.yaml
+
+kubectl proxy
+
+7.kubectl run kubeaspnetapp --image=kubeaspnetapp:v1 --port=80
+kubectl port-forward k8s-net-pod 8090:80
+8.check
+kubectl get deployments
+kubectl delete deployments {name}
+kubectl get pods
+
+9.expose service :
+kubectl expose deployment kubeaspnetapp --type=NodePort
+
+10.
+kubectl get services
+kubectl get pods

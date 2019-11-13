@@ -1,0 +1,19 @@
+﻿@model IList<CityService.DbModels.City>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <table>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.Name</td>
+                <td>@r.Country</td>
+                <td>@r.PostalCode</td>
+                <td>@r.StateCode</td>
+            </tr>
+        }
+    </table>
+    
+</div>

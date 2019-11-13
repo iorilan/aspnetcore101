@@ -1,0 +1,8 @@
+﻿dotnet xx.dll
+dotnet xx.dll --urls http://localhost:your port
+
+
+- for IIS
+download hosting bundle
+https://dotnet.microsoft.com/download/thank-you/dotnet-runtime-2.2.7-windows-hosting-bundle-installer
+

@@ -1,0 +1,20 @@
+﻿1. get all docker images
+docker images
+
+2. save a docker image
+docker save -o D:\Docker\Images\app.rar {imageName}
+
+3. deploy image on another machine
+3.1 login to another server ,copy app.rar into any folder
+3.2 
+docker load -i app.rar
+
+3.3 
+docker run -it {imagename}
+
+3.4 to delete image
+docker rmi -f {image id}
+
+3.5 to delete container 
+docker container prune
+docker rm -f CONTAINER_ID

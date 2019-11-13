@@ -1,0 +1,13 @@
+D:\Craft\aspnetcore\AspCoreSamples\bin\Debug\netcoreapp2.1\AspCoreSamples.deps.json
+D:\Craft\aspnetcore\AspCoreSamples\bin\Debug\netcoreapp2.1\AspCoreSamples.runtimeconfig.json
+D:\Craft\aspnetcore\AspCoreSamples\bin\Debug\netcoreapp2.1\AspCoreSamples.runtimeconfig.dev.json
+D:\Craft\aspnetcore\AspCoreSamples\bin\Debug\netcoreapp2.1\AspCoreSamples.dll
+D:\Craft\aspnetcore\AspCoreSamples\bin\Debug\netcoreapp2.1\AspCoreSamples.pdb
+D:\Craft\aspnetcore\AspCoreSamples\obj\Debug\netcoreapp2.1\AspCoreSamples.csproj.CoreCompileInputs.cache
+D:\Craft\aspnetcore\AspCoreSamples\obj\Debug\netcoreapp2.1\AspCoreSamples.RazorAssemblyInfo.cache
+D:\Craft\aspnetcore\AspCoreSamples\obj\Debug\netcoreapp2.1\AspCoreSamples.RazorAssemblyInfo.cs
+D:\Craft\aspnetcore\AspCoreSamples\obj\Debug\netcoreapp2.1\AspCoreSamples.AssemblyInfoInputs.cache
+D:\Craft\aspnetcore\AspCoreSamples\obj\Debug\netcoreapp2.1\AspCoreSamples.AssemblyInfo.cs
+D:\Craft\aspnetcore\AspCoreSamples\obj\Debug\netcoreapp2.1\AspCoreSamples.RazorTargetAssemblyInfo.cache
+D:\Craft\aspnetcore\AspCoreSamples\obj\Debug\netcoreapp2.1\AspCoreSamples.dll
+D:\Craft\aspnetcore\AspCoreSamples\obj\Debug\netcoreapp2.1\AspCoreSamples.pdb

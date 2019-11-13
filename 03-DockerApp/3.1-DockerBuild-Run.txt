@@ -1,0 +1,11 @@
+﻿Windows container ->
+1. download docker from 
+https://hub.docker.com/editions/community/docker-ce-desktop-windows
+
+note: if windows. need to be pro version
+2. enable docker option when create application
+
+3. 
+go to project folder . open command 
+docker build -t aspnetapp .
+docker run -d -p 8080:80 --name myapp aspnetapp
