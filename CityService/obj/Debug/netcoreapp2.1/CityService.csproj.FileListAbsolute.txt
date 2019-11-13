@@ -1,9 +1,0 @@
-D:\Craft\aspnetcore\CityService\obj\Debug\netcoreapp2.1\CityService.csprojAssemblyReference.cache
-D:\Craft\aspnetcore\CityService\obj\Debug\netcoreapp2.1\CityService.csproj.CoreCompileInputs.cache
-D:\Craft\aspnetcore\CityService\obj\Debug\netcoreapp2.1\CityService.RazorAssemblyInfo.cache
-D:\Craft\aspnetcore\CityService\obj\Debug\netcoreapp2.1\CityService.RazorAssemblyInfo.cs
-D:\Craft\aspnetcore\CityService\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
-D:\Craft\aspnetcore\CityService\obj\Debug\netcoreapp2.1\CityService.AssemblyInfoInputs.cache
-D:\Craft\aspnetcore\CityService\obj\Debug\netcoreapp2.1\CityService.AssemblyInfo.cs
-D:\Craft\aspnetcore\CityService\obj\Debug\netcoreapp2.1\CityService.dll
-D:\Craft\aspnetcore\CityService\obj\Debug\netcoreapp2.1\CityService.pdb
