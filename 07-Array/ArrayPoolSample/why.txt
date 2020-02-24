@@ -1,0 +1,1 @@
+Using the ArrayPool<T> class to rent and return buffers (using the Rent and Return methods) can improve performance in situations where arrays are created and destroyed frequently, resulting in significant memory pressure on the garbage collector.
