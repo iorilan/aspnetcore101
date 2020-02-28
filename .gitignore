@@ -336,12 +336,3 @@ __pycache__/
 
 
 # End of https://www.gitignore.io/api/visualstudio
-
-
-Portal/logs
-/Portal/Web.config
-
-/CertisVMSKiosk/logs
-/KioskPrinterWebHost/logs
-/CertisVMS.FRS/logs
-/BrotherPrinterWinservice/Debug_Img
