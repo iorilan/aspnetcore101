@@ -1,0 +1,1 @@
+Like MEF framework . referent different dlls .behavior will change 
